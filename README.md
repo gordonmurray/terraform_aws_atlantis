@@ -1,6 +1,6 @@
 # Terraform AWS Atlantis
 
-A Terraform module to create a small EC2 instance with Atlantis and Infracost. 
+A Terraform module to create a small EC2 instance to run [Atlantis](https://www.runatlantis.io/) and [Infracost](https://www.infracost.io/) 
 
 Packer is used to create an AMI with Docker, Nginx and a few other tools.
 
