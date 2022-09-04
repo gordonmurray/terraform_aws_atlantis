@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+
+  atlantis:
+    image: infracost/infracost-atlantis:latest
+    container_name: atlantis
+    env_file:
+      - ./.env
+    restart: always
+    ports:
+      - 4141:4141
