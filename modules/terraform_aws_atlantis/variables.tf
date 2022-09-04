@@ -51,3 +51,13 @@ variable "github_allow_list" {
 variable "infracost_api_key" {
   type = string
 }
+
+variable "domain_zone_id" {
+  type        = string
+  description = "The AWS Route53 zone ID to use to create a sub domain"
+}
+
+variable "domain_name" {
+  type        = string
+  description = "The sub domain to use to access Atlantis, such as atlantis.yourdomain.com"
+}

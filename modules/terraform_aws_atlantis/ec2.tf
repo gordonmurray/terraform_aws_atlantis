@@ -23,6 +23,10 @@ resource "aws_instance" "atlantis" {
     volume_size           = "10"
   }
 
+  tags = {
+    Name = "Atlantis"
+  }
+
   metadata_options {
     http_tokens   = "required"
     http_endpoint = "enabled"
