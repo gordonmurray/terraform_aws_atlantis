@@ -44,4 +44,9 @@ module "atlantis" {
   github_webhook_secret = var.github_webhook_secret
   github_allow_list     = var.github_allow_list
   infracost_api_key     = var.infracost_api_key
+
+  # domain variables
+  domain_zone_id = var.domain_zone_id
+  domain_name    = var.domain_name
+
 }
